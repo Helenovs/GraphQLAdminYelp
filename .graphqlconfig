@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "graphql": {
+      "schemaPath": "schema.graphql",
+      "extensions": {
+        "endpoints": {
+          "dev": {
+                  "url": "https://api.yelp.com/v3/graphql",
+                  "headers": {
+                    "Authorization": "Bearer k6Mwzc7QNv1vg1aUwAHQzBGe4AlDoU0KuslJlenhPaSX_ikbarWvvciZZt7ZB3Dd9UYE0Xn3_W6E0gr6SXgF2rWeS8LdFXDiaU_WM2TdBudJ-TxAMla9cnfaKIMDXXYx",
+                    "Content-Type": "application/json"
+                  }
+                }
+        }
+      }
+    }
+  }
+}
